@@ -6,15 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
-        <module name="service-provider" />
-        <module name="spring-cloud-api" />
+        <module name="microservice-simple-consumer-movie" />
+        <module name="microservice-simple-provider-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="eureka-service" target="1.8" />
-      <module name="spring-boot-api" target="10" />
-      <module name="spring-cloud-api" target="10" />
+      <module name="micorservice-simple-cousumer-user" target="1.8" />
+      <module name="microservice-simple-consumer-movie" target="1.8" />
+      <module name="microservice-simple-provider-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
