@@ -2,33 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77984052-6c76-4b8a-829a-4796e5a73ecf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/lm/eureka/MicroserviceDiscoveryEurekaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-cloud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/lm/eureka/EurekaServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/lm/eureka/EurekaServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/lm/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/src/test/java/com/lm/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-api/spring-cloud-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/lm/user/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/microservice-simple-provider-user/target/" />
     <ignored path="$PROJECT_DIR$/micorservice-simple-cousumer-user/target/" />
     <ignored path="$PROJECT_DIR$/microservice-simple-consumer-movie/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-discovery-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,10 +39,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user/pom.xml">
+        <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="198">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MicroserviceDiscoveryEurekaApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/lm/eureka/MicroserviceDiscoveryEurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -95,7 +102,6 @@
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/sql/data.sql" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/sql/schema.sql" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/lm/provider/user/User.java" />
-        <option value="$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/lm/provider/user/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/lm/provider/MicroserviceSimpleProviderUserApplication.java" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/src/test/java/com/lm/provider/user/mapper/UserMapperTest.java" />
@@ -108,6 +114,11 @@
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/java/com/lm/consumer/MicroserviceSimpleConsumerMovieApplication.java" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/java/com/lm/consumer/controller/MovieController.java" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/lm/eureka/MicroserviceDiscoveryEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
       </list>
     </option>
   </component>
@@ -118,6 +129,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/opt/maven" />
+        <option name="userSettingsFile" value="/opt/apache-maven-3.3.9/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -126,23 +143,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-simple-provider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-simple-provider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-simple-provider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -174,7 +175,58 @@
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-simple-provider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lm" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,6 +249,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -225,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroserviceSimpleProviderUserApplication">
+  <component name="RunManager" selected="Spring Boot.MicroserviceDiscoveryEurekaApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -272,6 +328,16 @@
       <module name="micorservice-simple-cousumer-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lm.cousumer.MicorserviceSimpleCousumerUserApplication" />
     </configuration>
+    <configuration name="MicroserviceDiscoveryEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-discovery-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lm.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lm.eureka.MicroserviceDiscoveryEurekaApplication" />
+    </configuration>
     <configuration name="MicroserviceSimpleConsumerMovieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-simple-consumer-movie" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lm.consumer.MicroserviceSimpleConsumerMovieApplication" />
@@ -313,9 +379,11 @@
       <item itemvalue="JUnit.UserMapperTest.selectById" />
       <item itemvalue="Spring Boot.MicorserviceSimpleCousumerUserApplication" />
       <item itemvalue="Spring Boot.MicroserviceSimpleConsumerMovieApplication" />
+      <item itemvalue="Spring Boot.MicroserviceDiscoveryEurekaApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MicroserviceDiscoveryEurekaApplication" />
         <item itemvalue="Spring Boot.MicroserviceSimpleProviderUserApplication" />
         <item itemvalue="JUnit.UserMapperTest.selectById" />
       </list>
@@ -333,7 +401,7 @@
       <updated>1545383411332</updated>
       <workItem from="1545383413604" duration="7434000" />
       <workItem from="1545402847450" duration="84000" />
-      <workItem from="1545402971448" duration="2448000" />
+      <workItem from="1545402971448" duration="6988000" />
     </task>
     <servers />
   </component>
@@ -355,7 +423,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9966000" />
+    <option name="totallyTimeSpent" value="14506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
@@ -399,42 +467,42 @@
       <window_info anchor="bottom" id="Find" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info id="JRebel" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.46749225" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.32972136" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.57894737" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972136" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.32972136" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-      <window_info anchor="right" id="BPMNPalette" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32930514" />
-      <window_info anchor="bottom" id="JRebel Executor" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="JRebel Console" order="8" side_tool="true" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.41993958" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="JRebel Executor" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28625378" />
+      <window_info anchor="bottom" id="JRebel Console" order="1" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.45665634" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,13 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -662,19 +723,155 @@
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/2.1.1.RELEASE/spring-boot-starter-actuator-2.1.1.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.1.RELEASE/spring-boot-actuator-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/actuate/autoconfigure/cloudfoundry/servlet/CloudFoundryActuatorAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="450">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/test/java/com/lm/eureka/MicroserviceDiscoveryEurekaApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/javax/activation/activation/1.1.1/activation-1.1.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-servlet/1.19.1/jersey-servlet-1.19.1.jar!/com/sun/jersey/spi/container/servlet/ServletContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="e#5328#5329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/lm/eureka/MicroserviceDiscoveryEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>microservice-discovery-eureka</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

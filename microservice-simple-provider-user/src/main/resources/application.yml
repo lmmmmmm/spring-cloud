@@ -1,6 +1,9 @@
+
 server:
   port: 8080
 spring:
+  application:
+    name: provider-user
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://45.63.12.239:3306/cms?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false

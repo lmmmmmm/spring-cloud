@@ -8,7 +8,9 @@
       <list>
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
