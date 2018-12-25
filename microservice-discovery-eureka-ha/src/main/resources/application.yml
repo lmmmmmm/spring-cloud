@@ -4,7 +4,8 @@ spring:
 ---
 spring:
   profiles: peer1
-server:
+server:ll
+
   port: 8761
 eureka:
   instance:

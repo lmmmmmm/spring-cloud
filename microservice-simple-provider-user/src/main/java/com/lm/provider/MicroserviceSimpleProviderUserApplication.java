@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.lm.**.mapper")
+@EnableEurekaClient
 public class MicroserviceSimpleProviderUserApplication {
 
     public static void main(String[] args) {
