@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservie-consumer-movie-without-eureka
+server:
+  port: 8090
+provider-user:
+  ribbon:
+    listOfServers: localhost:8080,localhost:8081
+
