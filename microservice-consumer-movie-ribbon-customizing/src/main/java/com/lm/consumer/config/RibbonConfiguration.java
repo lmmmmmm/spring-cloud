@@ -1,4 +1,4 @@
-package com.lm.consumer;
+package com.lm.consumer.config;
 
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.IRule;

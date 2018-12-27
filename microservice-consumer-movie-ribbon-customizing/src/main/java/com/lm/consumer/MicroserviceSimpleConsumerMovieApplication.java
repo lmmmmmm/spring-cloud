@@ -1,4 +1,4 @@
-package com.lm.consumer.config;
+package com.lm.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
