@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class MicroserviceSimpleConsumerMovieApplication {
+public class MicroserviceConsumerMovieRibbonApplication {
 
     @Bean
     @LoadBalanced
@@ -18,7 +18,7 @@ public class MicroserviceSimpleConsumerMovieApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroserviceSimpleConsumerMovieApplication.class, args);
+        SpringApplication.run(MicroserviceConsumerMovieRibbonApplication.class, args);
     }
 
 }

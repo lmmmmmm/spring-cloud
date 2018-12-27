@@ -29,8 +29,24 @@ public class MovieController {
 
     @GetMapping("user/{id}")
     public User findUserById(@PathVariable("id") String id) {
-        final String ip = "http://localhost:8080/user/";
-        User user = template.getForObject(ip + id, User.class);
+        User user = template.getForObject("http://MICROSERVICE-PROVIDER-USER/user/" + id, User.class);
+        return user;
+    }
+
+    /**
+     * 错误演示:
+     * <p>
+     * 不能将restTemplate.getForObject(...)与loadBalancerClient.choose()方法写在
+     * 同一个方法中,两者之间会有冲突,因为此时restTemplate已经是Ribbon客户端,包含的choose方法.
+     *
+     * @param id
+     * @return
+     */
+    @GetMapping("user/id/{id}")
+    public User test(@PathVariable("id") String id) {
+        ServiceInstance serviceInstance = balancerClient.choose("microservice-provider-user");
+        final String url = serviceInstance.getUri() + "/user/" + id;
+        User user = template.getForObject(url, User.class);
         return user;
     }
 
