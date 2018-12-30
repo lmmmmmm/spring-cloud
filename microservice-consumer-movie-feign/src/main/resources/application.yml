@@ -1,6 +1,6 @@
 spring:
   application:
-    name: microservie-consumer-movie
+    name: microservie-consumer-movie-feign
 server:
   port: 8081
 eureka:
