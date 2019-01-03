@@ -21,6 +21,7 @@ public class MovieController {
     public User findUserById(@PathVariable("id") String id) {
 
         User user = userFeignClient.findById(id);
+        System.out.println("findUserById");
         return user;
     }
 }

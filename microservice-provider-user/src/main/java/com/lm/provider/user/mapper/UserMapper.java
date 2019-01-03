@@ -12,6 +12,7 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface UserMapper {
 
+
     @Select("select * from cms_user where id = #{id}")
     User selectById(@Param("id") String id);
 
